@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./bootstrap-5.0.0-beta3-dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 offset-md-2 mt-4 mb-2">
+                <h3>Kişi Ekleme</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <form action="save.php" method="get">
+                <div class="row">
+                    <div class="col-md-4 offset-md-2">
+                        <div class="from-group">
+                            <label>Ad</label>
+                            <input type="text" class="form-control" name="name" placeholder="Adınızı giriniz">
+                        </div>
+
+                        <div class="from-group">
+                            <label>Soyad</label>
+                            <input type="text" class="form-control" name="lastname" placeholder="Soyadınızı giriniz">
+                        </div>
+
+                        <div class="from-group">
+                            <label>Doğum Tarihi</label>
+                            <input type="date" class="form-control" name="birthday"
+                                placeholder="Doğum tarihinizi giriniz">
+                        </div>
+
+                        <div class="from-group">
+                            <label>Telefon</label>
+                            <input type="text" class="form-control" name="phone"
+                                placeholder="Telefon numaranızı giriniz">
+                        </div>
+
+                        <div class="from-group">
+                            <label>E-Posta</label>
+                            <input type="text" class="form-control" name="email"
+                                placeholder="E-Posta adresinizi giriniz">
+                        </div>
+
+                        <div class="from-group">
+                            <label>Web Adresi</label>
+                            <input type="text" class="form-control" name="web" placeholder="Web adresinizi giriniz">
+                        </div>
+
+                    </div>
+                    <!--col-md-4-->
+
+                    <div class="col-md-4">
+                        <div class="from-group">
+                            <label>Facebook</label>
+                            <input type="text" class="form-control" name="facebook"
+                                placeholder="Facebook adresinizi giriniz">
+                        </div>
+
+                        <div class="from-group">
+                            <label>Twitter</label>
+                            <input type="text" class="form-control" name="twitter"
+                                placeholder="Twitter adresinizi giriniz">
+                        </div>
+
+                        <div class="from-group">
+                            <label>Google+</label>
+                            <input type="text" class="form-control" name="googlePlus"
+                                placeholder="Google+ adresinizi giriniz">
+                        </div>
+
+                        <div class="from-group">
+                            <label>Adres</label>
+                            <textarea rows="3" class="form-control" name="location"
+                                placeholder="Adres bilginizi giriniz"></textarea>
+                        </div>
+
+                        <div class="from-group">
+                            <label>Kişi Önemli Not</label>
+                            <textarea rows="3" class="form-control" name="note"
+                                placeholder="Kişi notunuzu giriniz"></textarea>
+                        </div>
+                    </div>
+                    <!--col-md-4-->
+                    <!-- <button type="submit" class="btn btn-primary mt-2 col-md-8 offset-md-2">Kaydet</button>
+                    <button type="submit" class="btn btn-primary mt-2 col-md-8 offset-md-2">Kaydet</button> -->
+                    <a href="list.php" class="btn btn-secondary mt-2 col-md-4 offset-md-2 me-1">Geri</a>
+                    <button type="submit" class="btn btn-primary mt-2 col-md-4">Kaydet</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="./bootstrap-5.0.0-beta3-dist/js/bootstrap.min.js">
+    </script>
+</body>
+
+</html>
